@@ -1,26 +1,64 @@
-Restock Analysis Dashboard
+# Restock Analysis Dashboard
 
-Overview
-The Restock Analysis Dashboard provides an in-depth analysis of product restocking and stale inventory across different machines and product categories. It is designed to help inventory managers monitor restocking needs, identify trends, and minimize stale inventory to improve supply efficiency.
+The Restock Analysis Dashboard provides an in-depth analysis of **product restocking** and **stale inventory** across different machines and product categories.
+It is designed for inventory and supply chain managers to monitor restocking needs, identify trends, and minimize stale inventory to improve supply efficiency.
 
-Dashboard Sections
-1. Restock vs Machine ID
-A bar chart displaying the restock unit count for each machine ID.
-Highlights the average restock count and identifies machines with high and low restock rates.
-Includes a Restock Cut-off filter, allowing users to categorize machines based on the restock volume.
+---
 
-2. Restock & Stale vs Product Category
-A comparative bar chart showing the restock and stale counts across product categories and locations (e.g., Company, Mall, School).
-Visualizes which products (e.g., Candies, Doritos, Lays) have higher stale rates in different categories.
-Filter for Product Description to analyze specific products' restocking and stale trends.
+## Preview
 
-3. Trend Analysis
-A line chart tracking average restock counts over time.
-Allows users to observe monthly and seasonal trends in restocking needs, helping in demand forecasting.
-Date range from December 2018 to January 2019, showing daily fluctuations in restock rates.
+![Restock Analysis Dashboard](SS.jpeg)
 
-Usage
-1. This dashboard can be used by inventory and supply chain teams to:
-2. Monitor restock frequencies across machines and products.
-3. Machines or product categories with high stale inventory to minimize waste.
-4. Forecast restocking needs based on historical trends and optimize supply schedules.
+---
+
+## Dashboard Sections
+
+### 1. Restock vs Machine ID
+
+* Bar chart showing restock unit count per machine ID
+* Highlights the **average restock count**
+* Identifies machines with **high and low restock rates**
+* Includes a **Restock Cut-off filter** to categorize machines
+
+### 2. Restock & Stale vs Product Category
+
+* Comparative bar charts for restock and stale counts
+* Segmented by **location categories**: Company, Mall, and School
+* Product-level breakdown (Candies, Doritos, Lays, etc.)
+* Filter for product descriptions to analyze specific items
+
+### 3. Trend Analysis
+
+* Line chart tracking average restock counts over time
+* Covers **December 2018 to January 2019**
+* Shows **daily fluctuations** and seasonal restocking patterns
+* Useful for **forecasting demand and scheduling supplies**
+
+---
+
+## Usage
+
+This dashboard can be used by **inventory and supply chain teams** to:
+
+* Monitor restock frequencies across machines and product categories
+* Identify machines or product categories with **high stale inventory** to reduce waste
+* Forecast restocking needs using **historical demand trends**
+* Optimize supply schedules and improve operational efficiency
+
+---
+
+## Tech Stack
+
+* **Visualization Tool:** Tableau
+* **Data Handling:** Pre-processed transactional dataset
+* **Focus Areas:** Restock tracking, stale inventory analysis, demand forecasting
+
+---
+
+## Portfolio Value
+
+This project demonstrates:
+
+* Ability to design **interactive dashboards** for operational decision-making
+* Skills in **data visualization and storytelling with Tableau**
+* Practical application of analytics for **inventory optimization**
